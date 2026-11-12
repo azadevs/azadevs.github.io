@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDFix – Privacy Policy</title>
+<meta name="description" content="Privacy policy for the PDFix Android app. PDFix works fully offline and collects no personal data.">
+<link rel="icon" href="../icon-192.png">
+<style>
+  :root { --bg:#f8fafc; --fg:#0f172a; --muted:#475569; --card:#ffffff; --accent:#2563eb; --border:#e2e8f0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f172a; --fg:#f1f5f9; --muted:#94a3b8; --card:#1e293b; --accent:#60a5fa; --border:#334155; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { padding:32px 16px 8px; max-width:760px; margin:0 auto; }
+  header { display:flex; align-items:center; gap:16px; }
+  header img { width:56px; height:56px; border-radius:16px; flex:none; }
+  header h1 { margin:0 0 4px; font-size:28px; }
+  header p { margin:0; color:var(--muted); }
+  nav { display:flex; gap:8px; padding:12px 16px; max-width:760px; margin:0 auto; flex-wrap:wrap; }
+  nav button { border:1px solid var(--border); background:var(--card); color:var(--fg); padding:8px 16px; border-radius:999px; cursor:pointer; font:inherit; font-size:14px; }
+  nav button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+  main { max-width:760px; margin:0 auto; padding:8px 16px 48px; }
+  section[data-lang] { display:none; }
+  section[data-lang].active { display:block; }
+  article { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px; }
+  h2 { font-size:20px; margin:28px 0 8px; }
+  h2:first-child { margin-top:0; }
+  ul { padding-left:22px; }
+  .badge { display:inline-block; background:color-mix(in srgb, var(--accent) 15%, transparent); color:var(--accent); padding:4px 12px; border-radius:999px; font-size:13px; font-weight:600; margin-bottom:16px; }
+  footer { max-width:760px; margin:0 auto; padding:0 16px 40px; color:var(--muted); font-size:14px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <img src="../icon-192.png" alt="">
+  <div>
+    <h1>PDFix</h1>
+    <p>Privacy Policy · Политика конфиденциальности · Maxfiylik siyosati</p>
+  </div>
+</header>
+
+<nav aria-label="Language">
+  <button data-set="en" aria-pressed="true">English</button>
+  <button data-set="ru" aria-pressed="false">Русский</button>
+  <button data-set="uz" aria-pressed="false">O‘zbekcha</button>
+</nav>
+
+<main>
+<!-- ===================== EN ===================== -->
+<section data-lang="en" class="active" lang="en">
+<article>
+  <span class="badge">Effective date: 10 November 2026</span>
+  <h2>Summary</h2>
+  <p>PDFix is an offline PDF utility (merge, split, compress). <strong>It does not collect, store, transmit or sell any personal data.</strong> The app has no internet permission, so it cannot send anything off your device.</p>
+
+  <h2>1. Who we are</h2>
+  <p>PDFix is developed and published by an individual developer (“we”, “us”). Contact: <a href="mailto:codingtechmchj@gmail.com">codingtechmchj@gmail.com</a>.</p>
+
+  <h2>2. Data we collect</h2>
+  <p>None. PDFix does not require an account, does not use analytics, crash-reporting SDKs, advertising SDKs or any third-party tracking. We never see your documents.</p>
+
+  <h2>3. How your files are handled</h2>
+  <ul>
+    <li>You choose files through the Android system file picker (Storage Access Framework) or by sharing them to PDFix from another app. PDFix only receives the files you explicitly select.</li>
+    <li>Processing happens entirely on your device. A temporary copy of each input file is kept in the app’s private cache and deleted automatically within 12 hours.</li>
+    <li>Results are stored in the app’s private storage (<code>Android/data/com.azadevs.pdfix/files/pdfix</code>) for up to 7 days so you can open, share or save them. You can also save a result to any folder you choose; that copy is fully under your control.</li>
+    <li>Result files are excluded from Android cloud backup.</li>
+    <li>If <em>Save copies to Downloads</em> is on (it is on by default on Android 10 and newer), each result is also copied to the public <code>Downloads/PDFix</code> folder. These copies are ordinary files: other apps with file access can read them, PDFix never deletes them automatically, and they remain after uninstall. Turn the option off in Settings → Storage, or delete the copies with any file manager.</li>
+    <li>Uninstalling PDFix removes all of its private files. Copies in <code>Downloads/PDFix</code> stay.</li>
+  </ul>
+
+  <h2>4. Permissions</h2>
+  <p>PDFix declares <strong>no INTERNET permission</strong>. On Android 10 and newer it needs <strong>no runtime permission</strong>. On Android 9 and older it asks for storage permission only when you enable <em>Save copies to Downloads</em>, and uses it only to write into <code>Downloads/PDFix</code>. File access for processing is granted per file by you through the system picker and is limited to those files.</p>
+
+  <h2>5. Sharing with third parties</h2>
+  <p>When you tap “Share” or “Open PDF”, Android passes the selected result to the app you choose. That app’s own privacy policy then applies. We do not share anything with anyone ourselves.</p>
+
+  <h2>6. Children</h2>
+  <p>PDFix collects no data from anyone, including children under 13.</p>
+
+  <h2>7. Security</h2>
+  <p>Because nothing leaves the device, the main safeguard is your device’s own lock screen and storage encryption. Files inside the app’s private storage are not readable by other apps on Android 10 and newer; on older versions, apps you have granted storage permission to can read them.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If the app ever adds features that process data differently, this page will be updated and the “Effective date” changed before such a version is released.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions or requests: <a href="mailto:codingtechmchj@gmail.com">codingtechmchj@gmail.com</a></p>
+</article>
+</section>
+
+<!-- ===================== RU ===================== -->
+<section data-lang="ru" lang="ru">
+<article>
+  <span class="badge">Дата вступления в силу: 10 ноября 2026 г.</span>
+  <h2>Кратко</h2>
+  <p>PDFix — офлайн-утилита для работы с PDF (объединение, разделение, сжатие). <strong>Приложение не собирает, не хранит, не передаёт и не продаёт персональные данные.</strong> У него нет разрешения на доступ в интернет, поэтому оно физически не может ничего отправить с вашего устройства.</p>
+
+  <h2>1. Кто мы</h2>
+  <p>PDFix разрабатывает и публикует независимый разработчик («мы»). Контакт: <a href="mailto:codingtechmchj@gmail.com">codingtechmchj@gmail.com</a>.</p>
+
+  <h2>2. Какие данные мы собираем</h2>
+  <p>Никакие. PDFix не требует учётной записи, не использует аналитику, SDK сбора ошибок, рекламные SDK и любые сторонние трекеры. Мы никогда не видим ваши документы.</p>
+
+  <h2>3. Как обрабатываются ваши файлы</h2>
+  <ul>
+    <li>Вы выбираете файлы через системный файловый менеджер Android (Storage Access Framework) или отправляете их в PDFix из другого приложения. PDFix получает только файлы, которые вы явно выбрали.</li>
+    <li>Обработка выполняется полностью на устройстве. Временная копия каждого исходного файла хранится в закрытом кеше приложения и автоматически удаляется в течение 12 часов.</li>
+    <li>Результаты сохраняются в закрытом хранилище приложения (<code>Android/data/com.azadevs.pdfix/files/pdfix</code>) до 7 дней, чтобы вы могли их открыть, отправить или сохранить. Вы также можете сохранить результат в любую папку — эта копия полностью под вашим контролем.</li>
+    <li>Файлы результатов исключены из облачного резервного копирования Android.</li>
+    <li>Если включена функция <em>Сохранять копии в «Загрузки»</em> (на Android 10 и новее она включена по умолчанию), каждый результат также копируется в общедоступную папку <code>Downloads/PDFix</code>. Это обычные файлы: другие приложения с доступом к файлам могут их читать, PDFix никогда не удаляет их автоматически, и они остаются после удаления приложения. Отключите функцию в «Настройки → Хранилище» или удалите копии любым файловым менеджером.</li>
+    <li>При удалении PDFix удаляются все его закрытые файлы. Копии в <code>Downloads/PDFix</code> остаются.</li>
+  </ul>
+
+  <h2>4. Разрешения</h2>
+  <p>PDFix <strong>не объявляет разрешение INTERNET</strong>. На Android 10 и новее ему <strong>не нужны разрешения во время работы</strong>. На Android 9 и старее приложение запрашивает разрешение на хранилище только при включении функции <em>Сохранять копии в «Загрузки»</em> и использует его только для записи в <code>Downloads/PDFix</code>. Доступ к файлам для обработки предоставляется вами по каждому файлу через системный выбор и ограничен этими файлами.</p>
+
+  <h2>5. Передача третьим лицам</h2>
+  <p>При нажатии «Поделиться» или «Открыть PDF» Android передаёт выбранный результат приложению, которое вы укажете. Далее действует политика конфиденциальности этого приложения. Сами мы ничего никому не передаём.</p>
+
+  <h2>6. Дети</h2>
+  <p>PDFix не собирает данные ни от кого, включая детей младше 13 лет.</p>
+
+  <h2>7. Безопасность</h2>
+  <p>Поскольку данные не покидают устройство, основная защита — экран блокировки и шифрование хранилища вашего устройства. Файлы в закрытом хранилище приложения недоступны другим приложениям на Android 10 и новее; на более старых версиях их могут читать приложения, которым вы дали разрешение на хранилище.</p>
+
+  <h2>8. Изменения политики</h2>
+  <p>Если в приложении появятся функции, иначе обрабатывающие данные, эта страница будет обновлена, а дата вступления в силу изменена до выпуска такой версии.</p>
+
+  <h2>9. Контакты</h2>
+  <p>Вопросы и запросы: <a href="mailto:codingtechmchj@gmail.com">codingtechmchj@gmail.com</a></p>
+</article>
+</section>
+
+<!-- ===================== UZ ===================== -->
+<section data-lang="uz" lang="uz">
+<article>
+  <span class="badge">Kuchga kirish sanasi: 2026-yil 10-noyabr</span>
+  <h2>Qisqacha</h2>
+  <p>PDFix — oflayn PDF vositasi (birlashtirish, bo‘lish, siqish). <strong>Ilova hech qanday shaxsiy ma’lumotni yig‘maydi, saqlamaydi, uzatmaydi va sotmaydi.</strong> Ilovada internet ruxsati yo‘q, shuning uchun u qurilmangizdan hech narsa yubora olmaydi.</p>
+
+  <h2>1. Biz kimmiz</h2>
+  <p>PDFix mustaqil dasturchi («biz») tomonidan ishlab chiqiladi va nashr etiladi. Aloqa: <a href="mailto:codingtechmchj@gmail.com">codingtechmchj@gmail.com</a>.</p>
+
+  <h2>2. Qanday ma’lumot yig‘amiz</h2>
+  <p>Hech qanday. PDFix hisob qaydnomasini talab qilmaydi, analitika, xatoliklarni yig‘uvchi SDK, reklama SDK yoki boshqa uchinchi tomon kuzatuvchilaridan foydalanmaydi. Biz hujjatlaringizni hech qachon ko‘rmaymiz.</p>
+
+  <h2>3. Fayllaringiz qanday qayta ishlanadi</h2>
+  <ul>
+    <li>Fayllarni Android tizim fayl tanlagichi (Storage Access Framework) orqali tanlaysiz yoki boshqa ilovadan PDFix’ga ulashasiz. PDFix faqat siz aniq tanlagan fayllarni oladi.</li>
+    <li>Qayta ishlash to‘liq qurilmangizda bajariladi. Har bir kiruvchi faylning vaqtinchalik nusxasi ilovaning yopiq keshida saqlanadi va 12 soat ichida avtomatik o‘chiriladi.</li>
+    <li>Natijalar ilovaning yopiq xotirasida (<code>Android/data/com.azadevs.pdfix/files/pdfix</code>) 7 kungacha saqlanadi, shunda ularni ochish, ulashish yoki saqlash mumkin. Natijani istalgan papkaga ham saqlashingiz mumkin — bu nusxa to‘liq sizning nazoratingizda.</li>
+    <li>Natija fayllari Android bulutli zaxiradan chiqarib tashlangan.</li>
+    <li>Agar <em>Nusxalarni Yuklanmalarga saqlash</em> yoqilgan bo‘lsa (Android 10 va yangisida u sukut bo‘yicha yoqilgan), har bir natija ochiq <code>Downloads/PDFix</code> papkasiga ham nusxalanadi. Bu oddiy fayllar: fayllarga kirish huquqi bor boshqa ilovalar ularni o‘qiy oladi, PDFix ularni hech qachon avtomatik o‘chirmaydi va ilova o‘chirilgandan keyin ham ular qoladi. Funksiyani «Sozlamalar → Xotira» da o‘chiring yoki nusxalarni istalgan fayl menejeri bilan o‘chiring.</li>
+    <li>PDFix o‘chirilganda uning barcha yopiq fayllari ham o‘chiriladi. <code>Downloads/PDFix</code> dagi nusxalar qoladi.</li>
+  </ul>
+
+  <h2>4. Ruxsatlar</h2>
+  <p>PDFix <strong>INTERNET ruxsatini e’lon qilmaydi</strong>. Android 10 va yangisida unga <strong>ish vaqtida hech qanday ruxsat kerak emas</strong>. Android 9 va eskisida ilova xotira ruxsatini faqat <em>Nusxalarni Yuklanmalarga saqlash</em> funksiyasi yoqilganda so‘raydi va undan faqat <code>Downloads/PDFix</code> ga yozish uchun foydalanadi. Qayta ishlash uchun fayllarga kirish har bir fayl uchun siz tomondan tizim tanlagichi orqali beriladi va faqat o‘sha fayllar bilan cheklanadi.</p>
+
+  <h2>5. Uchinchi tomonlarga uzatish</h2>
+  <p>«Ulashish» yoki «PDF ochish» tugmasini bosganingizda Android tanlangan natijani siz ko‘rsatgan ilovaga uzatadi. Keyin o‘sha ilovaning maxfiylik siyosati amal qiladi. Biz o‘zimiz hech kimga hech narsa uzatmaymiz.</p>
+
+  <h2>6. Bolalar</h2>
+  <p>PDFix hech kimdan, shu jumladan 13 yoshgacha bolalardan ham ma’lumot yig‘maydi.</p>
+
+  <h2>7. Xavfsizlik</h2>
+  <p>Ma’lumotlar qurilmadan chiqmagani uchun asosiy himoya — qurilmangizning qulf ekrani va xotira shifrlash. Ilovaning yopiq xotirasidagi fayllarni Android 10 va yangisida boshqa ilovalar o‘qiy olmaydi; eskiroq versiyalarda siz xotira ruxsati bergan ilovalar ularni o‘qiy oladi.</p>
+
+  <h2>8. Siyosatdagi o‘zgarishlar</h2>
+  <p>Agar ilovaga ma’lumotni boshqacha qayta ishlaydigan funksiyalar qo‘shilsa, bunday versiya chiqarilishidan oldin ushbu sahifa yangilanadi va kuchga kirish sanasi o‘zgartiriladi.</p>
+
+  <h2>9. Aloqa</h2>
+  <p>Savol va so‘rovlar: <a href="mailto:codingtechmchj@gmail.com">codingtechmchj@gmail.com</a></p>
+</article>
+</section>
+</main>
+
+<footer>© 2026 PDFix · <a href="https://github.com/azadevs/PDFix">github.com/azadevs/PDFix</a></footer>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('nav button');
+    var sections = document.querySelectorAll('section[data-lang]');
+    function show(lang) {
+      sections.forEach(function (s) { s.classList.toggle('active', s.dataset.lang === lang); });
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.set === lang)); });
+      document.documentElement.lang = lang;
+      try { history.replaceState(null, '', '#' + lang); } catch (e) {}
+    }
+    buttons.forEach(function (b) { b.addEventListener('click', function () { show(b.dataset.set); }); });
+    var fromHash = location.hash.replace('#', '');
+    var fromBrowser = (navigator.language || 'en').slice(0, 2);
+    var initial = ['en', 'ru', 'uz'].indexOf(fromHash) >= 0 ? fromHash
+                : ['ru', 'uz'].indexOf(fromBrowser) >= 0 ? fromBrowser : 'en';
+    show(initial);
+  })();
+</script>
+</body>
+</html>
